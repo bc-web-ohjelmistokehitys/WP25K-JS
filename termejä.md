@@ -57,7 +57,7 @@ On tärkeää huomata, että `null` on erillinen arvo **`undefined`**-arvosta, v
 
 Nullish-arvojen ymmärtäminen on tärkeää, koska niitä käytetään usein ehdollisissa lauseissa tai arvon tarkistamisessa ennen toimintojen suorittamista. Esimerkiksi [valinnaisessa ketjuttamisessa (`?.`)](../08_osa/01_ketjutus.md), jota käytetään nullish-arvojen aiheuttamien virheiden estämiseen, varmistetaan, että arvoa käytetään vain, jos se ei ole `null` tai `undefined`.
 
-**Omarthegeek** on tehnyt tästä erittäin havainnollistavan kuvan: ![null vs undefined](../assets/r_2347874_pNrMx.jpg)
+**Omarthegeek** on tehnyt tästä erittäin havainnollistavan kuvan: ![null vs undefined](assets/r_2347874_pNrMx.jpg)
 [lähde](https://devrant.com/rants/2347874/null-vs-undefine)
 
 **Nullish** arvoja ovat kuvassa kaksi alempaa kuvaa.
