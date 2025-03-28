@@ -9,11 +9,11 @@
 
 Code Runner on luonut play-ikonin VSCoden oikeaan yläreunaan. **Tallenna** koodin muutokset ja aja koodi klikkaamalla ikonia.
 
-[ikoni](/assets/coderunnerikoni.png)
+![ikoni](/assets/coderunnerikoni.png)
 
 Ohjelma suoritetaan VSCoden terminaalissa.
 
-[lopputulos](/assets/codrunnerterminaali.png)
+![lopputulos](/assets/codrunnerterminaali.png)
 
 ### Code Runner ei sovellu:
 
