@@ -10,17 +10,17 @@
 1. Avaa terminaali ja aja siellä komento `which node`
 2. Vastaukseksi pitäisi tulla sijainti, joka loppuu sanaan "node"
 
-![sijainti](/assets/Screenshot%202025-03-31%20at%2011.49.13.png)
+![sijainti](/assets/nodepolku.png)
 _Jos vastaus on jotain muuta, Node on asentamatta. Löydät sen Homebrewn kautta, tarkista asennusohjeet ItsLearningistä._
 
-3. **Kopioi sijainti**, tarvitsemme sitä myöhemmin.
-4. Avaa VSCoden komentopaletti näppäimillä `command`+`shift`+`P`
-5. Kirjoita riville `Open User settings (JSON)`
+1. **Kopioi sijainti**, tarvitsemme sitä myöhemmin.
+2. Avaa VSCoden komentopaletti näppäimillä `command`+`shift`+`P`
+3. Kirjoita riville `Open User settings (JSON)`
 
-   ![user settings](/assets/Screenshot%202025-03-31%20at%2011.57.27.png)
+   ![user settings](/assets/usersettings.png)
 
-6. Lisää tiedostoon alla olevassa kuvassa näkyvien rivien tapaan se sijainti, jossa Node on. Sen saa kopioitua terminaalista (kohta 3.)
-   ![code-runner.ExecutorMap](/assets/Screenshot%202025-03-31%20at%2017.49.16.png)
+4. Lisää tiedostoon alla olevassa kuvassa näkyvien rivien tapaan se sijainti, jossa Node on. Sen saa kopioitua terminaalista (kohta 3.)
+   ![code-runner.ExecutorMap](/assets/executromap.png)
 
 _Ei haittaa, vaikka tiedostosi sisältö poikkeaa esimerkkikuvasta - meillä on vain hieman erilaiset asetukset._
 
