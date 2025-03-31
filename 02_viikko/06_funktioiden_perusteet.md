@@ -57,7 +57,7 @@ Käytä implisiittistä palautusta vain silloin, kun funktion runko on yksi rivi
 
 ## Nuolifunktiot
 
-Nuolifunktiot ovat hieman lyhyempi tapa kirjoittaa funktiota. Vanhempi tapa toimii edelleen myös ja niitä saattaa vilahdella materiaalissa.
+Nuolifunktiot ovat hieman lyhyempi tapa kirjoittaa funktiota. Niitä kannattaa käyttää yhden rivin ilmaisuihin.
 
 Alla on funktio nimeltä add ja se palauttaa kahden luvun summan.
 
@@ -127,7 +127,7 @@ Kun funktiota määritellään, sille määritellään **parametrit**. Kun funkt
    tipCounter(140, 1.15);
    ```
 
-2. Jos funktiosta halutaa tietoa ulos, se täytyy **palauttaa**. Huomaa alla sana **return**
+2. Jos funktiosta halutaa tietoa ulos, se täytyy **palauttaa**. Huomaa alla sana **return**. Returnin jälkeen funktiosta poistutaan.
 
    ```js
    function tipCounter(a, b) {
