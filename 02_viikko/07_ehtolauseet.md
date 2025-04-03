@@ -107,7 +107,7 @@ if (!isRaining) {
 Tässä esimerkissä, koska isRaining on epätosi, !isRaining on tosi, joten viesti "You
 can go outside." tulostetaan.
 
-## Ternary operator eli Kolmitahoinen ehdollinen operaattori
+## Ternary operator eli ternäärinen / ehdollinen operaattori
 
 Ternary operator on lyhyt tapa kirjoittaa if...else-lause. Se on hyödyllinen yksinkertaisiin ehtoihin, jotka halutaan arvioida yhdellä rivillä.
 
@@ -199,14 +199,14 @@ function onAikuinen(ikä) {
 }
 ```
 
-Tämä funktio palauttaa välittömästi arvon tosi, jos ikä on 18 tai enemmän; muussa tapauksessa se palauttaa epätosi.
+Tämä funktio palauttaa välittömästi arvon tosi, jos ikä on 18 tai enemmän; muussa tapauksessa se palauttaa epätosi. Voit kirjoittaa saman koodin myös lyhyemmin, esimerkki alla.
 
 ## Boolean arvon palautuminen suoraan
 
 Palautettaessa boolean-arvoa, voit yksinkertaistaa funktiota palauttamalla itse ehdon:
 
 ```js
-function onÄänioikeutettu(ikä) {
+function onAikuinen(ikä) {
   return ikä >= 18;
 }
 ```
