@@ -108,7 +108,7 @@ for (let hedelmä of hedelmät) {
 
 Silmukka käy läpi jokaisen alkion `hedelmät`-taulukossa ja tulostaa ne.
 
-## Silmukan hallintalausunnot
+## Silmukan ohjauslauseet
 
 Näitä käytetään silmukan käyttäytymisen hallitsemiseen.
 
