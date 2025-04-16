@@ -9,7 +9,7 @@ Tässä projektissa käyttäjät voivat tarkistaa saldonsa, tallettaa rahaa ja n
 - Mahdollistaa rahan nostamisen (vain jos saldo riittää).
 - Päivittää saldon välittömästi ilman sivun uudelleenlatausta.
 
-# **Projekti 2: Pankkiautomaatti-simulaattori**
+# **Projekti: Pankkiautomaatti-simulaattori**
 
 ## Vaiheet projektin toteuttamiseen
 
