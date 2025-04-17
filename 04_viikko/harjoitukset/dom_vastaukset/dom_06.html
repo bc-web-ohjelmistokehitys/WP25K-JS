@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom 06</title>
+    <style>
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Lomakkeen validointitehtävä</h2>
+    <form id="userForm">
+      <label for="name">Nimi:</label>
+      <!-- nimen kohdalla on esimerkkinä required-attribuutti, jota ei tässä tarvita, kun skripti hoitaa tarkistuksen-->
+      <input type="text" id="name" name="name" required /> <br /><br />
+      <label for="email">Sähköposti:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <button type="submit">Lähetä</button>
+      <p class="error" id="errorMessage"></p>
+    </form>
+    <script src="dom_06.js"></script>
+  </body>
+</html>
