@@ -1,0 +1,40 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+#display {
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgb(255, 236, 125);
+}
+
+.saldo {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.input-group {
+  margin-bottom: 1rem;
+}
+input[type="number"] {
+  width: calc(100% - 110px);
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.message {
+  margin-top: 1rem;
+  color: red;
+  text-align: center;
+}

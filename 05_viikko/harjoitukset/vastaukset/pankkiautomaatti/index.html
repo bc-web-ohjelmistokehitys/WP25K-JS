@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pankkiautomaatti-simulaattori</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="display">
+      <h1>Pankkiautomaatti</h1>
+      <div class="saldo" id="saldoNaytto">Saldo: 0 €</div>
+
+      <div class="input-group">
+        <input
+          type="number"
+          id="talletusSumma"
+          placeholder="Syötä talletettava summa"
+        />
+        <button id="talletaBtn">Talleta</button>
+      </div>
+
+      <div class="input-group">
+        <input
+          type="number"
+          id="nostoSumma"
+          placeholder="Syötä nostettava summa"
+        />
+        <button id="nostaBtn">Nosta</button>
+      </div>
+
+      <div class="message" id="viesti"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
