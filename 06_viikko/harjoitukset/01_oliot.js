@@ -27,24 +27,15 @@ Luo uusi kirjaolio `Book`-konstruktorilla ja lisää se `library`-kokoelmaan.
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 5
-Kirjoita funktio nimeltä `createBook`, joka ottaa parametreina `title`, `author`, `yearPublished` ja `genres` (taulukko).
-Funktion tulee palauttaa uusi kirjaolio näillä ominaisuuksilla.
-Testaa `createBook`-funktiota luomalla uusi kirja käyttäjän antamilla arvoilla ja tulosta se konsoliin.
+/*
+Opettajan huomio: Hypätään tehtävän 5 yli, käyttäjän syötteen kysyminen on liian hankalaa tässä vaiheessa
 */
 
-// Kirjoita koodisi tähän
+/* Opettajan huomio: Hypätään tehtävän 6 yli, koska JSON tulee vasta seuraavalla viikolla
+ */
 
-/* Opettajan huomio: Hypätään tämän tehtävän yli, koska JSON tulee vasta seuraavalla viikolla
-
-Tehtävä 6
-Muunna `library`-kokoelma JSON-merkkijonoksi ja tulosta se konsoliin.
-Jäsennä JSON-merkkijono takaisin JavaScript-olioksi ja tulosta ensimmäisen kirjan `title` konsoliin.
-*/
-
-// Kirjoita koodisi tähän
-
-/* Tehtävä 7
+/* 
+Tehtävä 7
 Luo taulukko nimeltä `students`, jossa jokaisella oppilaalla on `name`, `age` ja `grade`.
 Tulosta niiden oppilaiden nimet, joiden arvosana on yli 90.
 */
