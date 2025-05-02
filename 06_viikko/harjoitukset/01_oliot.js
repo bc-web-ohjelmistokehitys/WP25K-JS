@@ -35,7 +35,9 @@ Testaa `createBook`-funktiota luomalla uusi kirja käyttäjän antamilla arvoill
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 6
+/* Opettajan huomio: Hypätään tämän tehtävän yli, koska JSON tulee vasta seuraavalla viikolla
+
+Tehtävä 6
 Muunna `library`-kokoelma JSON-merkkijonoksi ja tulosta se konsoliin.
 Jäsennä JSON-merkkijono takaisin JavaScript-olioksi ja tulosta ensimmäisen kirjan `title` konsoliin.
 */
