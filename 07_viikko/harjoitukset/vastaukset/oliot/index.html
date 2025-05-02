@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      :root {
+        --bg-color: #ffffff;
+        --text-color: #333333;
+        --button-bg: #007acc;
+        --button-text: #ffffff;
+        --button-hover-bg: #005fa3;
+      }
+
+      /* Jos data-theme="dark", korvataan muuttujat */
+      body[data-theme="dark"] {
+        --bg-color: #1e1e1e;
+        --text-color: #f0f0f0;
+        --button-bg: #444444;
+        --button-text: #f0f0f0;
+        --button-hover-bg: #555555;
+      }
+
+      /* Sovelletaan muuttujia bodyyn ja muihin elementteihin */
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: sans-serif;
+        margin: 0;
+        padding: 2rem;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      #themeBtn:hover {
+        background-color: var(--button-hover-bg);
+      }
+    </style>
+    <title>Olio-harjoitukset</title>
+  </head>
+  <body>
+    <h3>Tehtävä 3: Teeman vaihto</h3>
+    <button id="themeBtn">Vaihda teema</button>
+
+    <h3>Tehtävä 4: Laskuri</h3>
+
+    <div>
+      <button id="dec">−</button>
+      <span id="val">0</span>
+      <button id="inc">+</button>
+    </div>
+
+    <h3>Tehtävä 5: Tuotteiden yhteishinta</h3>
+    <p><span id="itemName"></span> <span id="itemPrice"></span>€</p>
+    <input type="number" id="qty" min="0" value="1" style="width: 20px" />
+    <label for="qty">kpl</label>
+
+    <p id="total"></p>
+
+    <h3>Tehtävä 6: Tehtävälista</h3>
+    <input id="title" placeholder="Tehtävän otsikko" />
+    <textarea id="desc" placeholder="Tehtävän kuvaus"></textarea>
+    <label>
+      Valmis?
+      <input type="checkbox" id="completed" />
+    </label>
+    <button id="addTask">Lisää tehtävä</button>
+    <ul id="taskList"></ul>
+
+    <h3>Tehtävä 7: Auton ikä</h3>
+    <p id="carInfo"></p>
+    <h3>Tehtävä 8: Käyttäjälista</h3>
+    <ul id="userList"></ul>
+    <button id="sortUsers">Lajittele</button>
+
+    <h3>Tehtävä 9: Ostoslista</h3>
+    <input id="itemInput" placeholder="Tuote" />
+    <button id="addItem">Lisää</button>
+    <h4>Ostoslista:</h4>
+    <ul id="list"></ul>
+
+    <h3>Tehtävä 10: Postaukset ja tykkäykset</h3>
+    <ul id="posts"></ul>
+
+    <h3>Tehtävä 12: Sekuntilaskuri</h3>
+    <p id="timer">0</p>
+    <button id="start">Start</button>
+
+    <h3>Tehtävä 13: Kirjojen tiedot</h3>
+    <form id="bookForm">
+      <input id="t" placeholder="Kirjan nimi" required />
+      <input id="a" placeholder="Kirjailija" required />
+      <input id="p" type="number" placeholder="Sivut" required />
+      <button type="submit">Lisää</button>
+    </form>
+    <ul id="books"></ul>
+
+    <h3>Tehtävä 14: Kettulista</h3>
+    <input id="name" placeholder="Nimi" />
+    <input id="loc" placeholder="Sijainti" />
+    <button id="addFox">Lisää kettu</button>
+    <ul id="foxes"></ul>
+    <script src="03_esimerkit.js"></script>
+  </body>
+</html>
