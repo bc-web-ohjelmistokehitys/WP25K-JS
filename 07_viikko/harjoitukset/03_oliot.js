@@ -44,14 +44,6 @@ Lisää HTML:ään painike, jota painamalla lisätään uusi `Task`-olio `tasks`
 // Kirjoita koodisi tähän
 
 /* Tehtävä 7
-Luo olio `weatherApp`, jossa on metodi `fetchWeather(city)`.
-Käytä `fetch`-funktiota hakeaksesi säätietoja API:sta ja näytä ne HTML-elementissä.
-(API: OpenWeather tai jokin muu ilmainen sää-API)
-*/
-
-// Kirjoita koodisi tähän
-
-/* Tehtävä 8
 Luo konstruktori-funktio `Car`, joka ottaa `brand`, `model` ja `year`.
 Lisää konstruktoriin metodi `age()`, joka laskee auton iän.
 Luo uusi `Car`-olio ja näytä sen ikä verkkosivulla.
@@ -59,28 +51,28 @@ Luo uusi `Car`-olio ja näytä sen ikä verkkosivulla.
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 9
+/* Tehtävä 8
 Luo taulukko `users`, jossa jokaisella käyttäjällä on `name` ja `score`.
 Lisää HTML:ään painike, joka lajittelee käyttäjät pistemäärän mukaan laskevasti ja päivittää näkyvän listan.
 */
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 10
+/* Tehtävä 9
 Luo olio `shoppingList`, jolla on taulukko `items`.
 Lisää syöttökenttä ja painike, joiden avulla käyttäjät voivat lisätä uusia tuotteita `items`-taulukkoon ja päivittää näkyvän listan.
 */
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 11
+/* Tehtävä 10
 Luo taulukko `posts`, jossa jokaisella postauksella on `title`, `content` ja `likes`.
 Lisää jokaisen postauksen viereen "Tykkää"-painike, joka kasvattaa `likes`-määrää ja päivittää näkymän.
 */
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 12
+/* Tehtävä 11
 Luo konstruktori-funktio `Employee`, jolla on `name`, `position` ja `salary`.
 Lisää metodi `increaseSalary(percent)`, joka kasvattaa palkkaa annetulla prosentilla.
 Luo työntekijä ja nosta hänen palkkaansa dynaamisesti.
@@ -88,21 +80,21 @@ Luo työntekijä ja nosta hänen palkkaansa dynaamisesti.
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 13
+/* Tehtävä 12
 Luo olio `timer`, jolla on `seconds` ja metodi `start()`, joka laskee sekunteja ylöspäin.
 Näytä ajastin HTML-elementissä ja päivitä se sekunnin välein.
 */
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 14
+/* Tehtävä 13
 Luo konstruktori-funktio `Book`, joka ottaa parametreina `title`, `author` ja `pages`.
 Luo yksinkertainen kirjastosovellus, jonka avulla käyttäjät voivat lisätä kirjoja HTML-lomakkeen kautta ja näyttää ne dynaamisesti.
 */
 
 // Kirjoita koodisi tähän
 
-/* Tehtävä 15
+/* Tehtävä 14
 Luo olio `foxTracker`, jolla on `foxes`-taulukko.
 Lisää syöttökenttä ja painike, joiden avulla käyttäjät voivat lisätä uusia kettuja (nimi ja sijainti) taulukkoon.
 Näytä kettujen lista dynaamisesti HTML-elementissä.
