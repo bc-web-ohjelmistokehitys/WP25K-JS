@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+      }
+      button {
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+      }
+    </style>
+    <title>Async ja virheenkäsittely</title>
+  </head>
+  <body>
+    <h2>Async-tehtävät näkyvät konsolissa</h2>
+    <h2>Virheenkäsittely:</h2>
+    <button onclick="task1()">testaa tehtävä 1</button> <br /><br />
+    <button onclick="task2()">testaa tehtävä 2</button><br /><br />
+    <button onclick="task3()">testaa tehtävä 3</button><br /><br />
+    <button onclick="parseJSON()">testaa tehtävä 4</button><br /><br />
+
+    <p>tehtävä 5</p>
+    <button onclick="checkAge(13)">ikä on 13</button>
+    <button onclick="checkAge(23)">ikä on 23</button><br /><br />
+
+    <p>tehtävä 6</p>
+    <button id="saveUser">tallenna käyttäjä tiedoilla</button>
+    <button id="noUser">tallenna huonoa tietoa</button>
+    <button id="clearUser">tyhjennä LocalStorage</button>
+    <button id="getUserData">hae käyttäjä</button><br /><br />
+
+    <p>tehtävä 7</p>
+    <button id="goodData">hyvällä datalla</button>
+    <button id="badData">huonolla datalla</button><br /><br />
+
+    <p>tehtävä 8</p>
+    <button id="goodApi">API datalla</button>
+    <button id="badApi">ilman APIa</button><br /><br />
+
+    <p>tehtävä</p>
+    <button id="URIok">URI oikein</button>
+    <button id="URIerror">URI väärin</button><br /><br />
+
+    <button onclick="clearStorage()">testaa tehtävä 10</button><br /><br />
+
+    <div id="output"></div>
+    <script src="esim_async.js"></script>
+
+    <script src="esim_virheenkasittely.js"></script>
+  </body>
+</html>
