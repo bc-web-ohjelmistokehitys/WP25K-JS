@@ -19,6 +19,7 @@ const activeUsers = users
 console.log(activeUsers); // ["ALICE", "CHARLIE"]
 
 console.log("Tehtävä", tehtava++);
+
 /* Tehtävä 2: Korjaa valinnainen ketjutus  
    Käytä turvallisesti `email`-ominaisuutta objektin `user.details` sisältä.
 */
@@ -27,15 +28,18 @@ const userData = { details: { contact: { email: "jane@example.com" } } };
 console.log(userData.details?.contact?.email);
 
 console.log("Tehtävä", tehtava++);
+
 /* Tehtävä 3: Korjaa valinnainen ketjutus taulukoiden kanssa  
    Käytä turvallisesti taulukon `orders` toista alkiota, jos se on olemassa.
 */
 const customer = { orders: [1001, 1002] };
 
 console.log(customer.orders?.[1]);
-// 1002  — ja jos orders olisi undefined, tulos olisi undefined
+// 1002  — ja jos orders olisi undefined, myös tulos olisi undefined
+// ilman valinnaista ketjutusta ohjelma kaatuu, jos ordersin kanssa on ongelmaa
 
 console.log("Tehtävä", tehtava++);
+
 /* Tehtävä 4: Korjaa ketjutettu merkkijonojen käsittely  
    Poimi nimikirjaimet koko nimestä metodiketjutuksella.
 */

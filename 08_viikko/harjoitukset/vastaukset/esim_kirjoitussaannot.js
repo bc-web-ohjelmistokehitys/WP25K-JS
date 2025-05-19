@@ -42,13 +42,17 @@ console.log("Tehtävä", tehtava++);
 /* Tehtävä 3: Luo objekti ja tulosta se
    Luo userProfile-objekti kentillä name, email, isAdmin ja loggaa konsoliin.
 */
+class UserProfile {
+  constructor(name, email, isAdmin) {
+    this.name = name;
+    this.email = email;
+    this.isAdmin = isAdmin;
+  }
+}
+
 function task3() {
-  const userProfile = {
-    name: "Alice",
-    email: "alice@example.com",
-    isAdmin: true,
-  };
-  console.log(userProfile);
+  const user1 = new UserProfile("Pekka", "pekka@topohanta.fi", true);
+  console.log(user1);
 }
 
 task3();
