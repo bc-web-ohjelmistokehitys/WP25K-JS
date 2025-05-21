@@ -37,7 +37,7 @@ Vaihtoehto toiselle Frontend Mentor -haasteelle: voit harjoitella ohjelmointipä
 ## Itse keksitty projekti
 
 - Oma, vapaavalintainen projekti.
-- Muista, ette ensin MVP versio, jota laajentaa kesän aikana.
+- Muista tehdä ensin MVP versio, jota laajentaa kesän aikana.
 - Klooniprojektit: Valitse pieni osa isommasta palvelusta (esim. yksinkertainen Netflix-klooni) ja toteuta se.
 
 ## FreeCodeCamp
