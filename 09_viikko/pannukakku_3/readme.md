@@ -106,3 +106,9 @@ Jokainen tilaus tallennetaan oliona, joka sisältää:
 - Lisää **haku**, jolla voi etsiä tilauksia asiakkaan nimen tai ID:n eli tilausnumeron perusteella.
 - Lisää **lajittelu** (esim. "waiting"-tilaukset ensin).
 - Salli **tilausten poistaminen**, kun ne on toimitettu.
+- Lisää **sisäänkirjautuminen** eli Kaikki tilaukset sivulle pääsee vain oikealla salasanalla.
+
+---
+
+### Tehtävän palautus ItsLearngiin, ohjeet siellä. 
+- Muista sisällyttää tapa, jolla projektin katsoja pääsee Kaikki tilaukset -sivulle. Se voi olla linkki index.html -sivulla tai readme-tiedostoon merkitty toinen verkkosivu.
