@@ -78,10 +78,10 @@ Osaan tehtävistä on esimerkkivastauksia.
 - [Korjaa koodia](09_viikko/harjoitukset/vastaukset/esim_korjaa_koodia.js) (vapaaehtoinen)
 - [Asynkroninen koodi](09_viikko/harjoitukset/vastaukset/esim_async.js)
 
-**Pannukakkutilaussivu** on kurssin lopulla arvioitava projekti, joten siitä ei tule esimerkkiratkaisua tänne. 
-- [Pannukakkusivu vaihe 1](04_viikko/harjoitukset/Pannukakkusivu)
-- [Pannukakkusivu vaihe 2](06_viikko/pannukakku2)
-- [Pannukakkusivu vaihe 3](09_viikko/pannukakku_3)
+**Pannukakkutilaussivu** on kurssin lopulla arvioitava projekti, joten siitä ei tule esimerkkiratkaisua tänne. Sivu koostuu kolmesta vaiheesta:
+- [Pannukakkusivu vaihe 1](04_viikko/harjoitukset/Pannukakkusivu) Pannukakkutyypit, täytteet, lisukkeet ja hinta
+- [Pannukakkusivu vaihe 2](06_viikko/pannukakku2) Asiakastiedot ja toimitusvaihtoehdot
+- [Pannukakkusivu vaihe 3](09_viikko/pannukakku_3) Tilausten Hallintasivu
 
 ## Oppimistavoitteet
 
@@ -112,4 +112,5 @@ Tekijänoikeus (C) Laura Järvinen
 
 Kurssi perustuu [MARGIT TENNOSAARIN](https://github.com/margittennosaar) kurssiin jolle hän on myöntänyt oikeuden kopioida, levittää ja/tai muokata GNU Free Documentation License -lisenssin version 1.3 tai myöhemmän ehtojen mukaisesti, joita Free Software Foundation on julkaissut ilman pysyviä osioita, ilman etu- tai takakannen tekstejä.  
 Lisenssin kopio sisältyy osioon nimeltä [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.txt).
+
 
